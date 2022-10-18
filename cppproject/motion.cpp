@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 #include <vector>
-#include "motion.h.h"
+#include "motion.h"
 using namespace std;
 typedef long double ld;
 
@@ -110,7 +110,7 @@ void Motion::SecondEquation::findS()
         cin >> this->num;
         this->val.push_back(this->num);
     }
-    cout << "Step :\n" << "s = " << '(' << this->val[0] << ")(" << this->val[1] << ')' << " + " << "((" << this->val[2] << ")(" << this->val[1] << ")² / 2)" << endl;
+    cout << "Step :\n" << "s = " << '(' << this->val[0] << ")(" << this->val[1] << ')' << " + " << "((" << this->val[2] << ")(" << this->val[1] << ")Â² / 2)" << endl;
     cout << "s = " << (this->val[0]*this->val[1]) + ((this->val[2]*pow(this->val[1], 2)) / 2); //(u*t) + ((a*pow(t, 2)) / 2)
 }
 
