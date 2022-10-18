@@ -31,7 +31,7 @@ void Motion::FirstEquation::findV()
         cin >> this->num;
         this->val.push_back(this->num);
     }
-    cout << "Step :\n" << "v = " << this->val[0] << " + " << '(' << this->val[1] << ')' << '(' << this->val[2] << ')' << endl;
+    cout << "Step :\n" << "v = " << this->val[0] << " + (" << this->val[1] << ")(" << this->val[2] << ')' << endl;
     cout << "v = " << this->val[0] + (this->val[1]*this->val[2]); // u + (a*t)
 }
 
