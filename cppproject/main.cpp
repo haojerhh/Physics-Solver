@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <cmath>
-#include "motion.h.h"
+#include "motion.h"
 #include "motion.cpp"
 #include "waves.h"
 #include "waves.cpp"
