@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1666109621 source:c:\users\user\documents\c++\cppproject\main.cpp
+	<iostream>
+	<vector>
+	<cmath>
+	"motion.h.h"
+	"motion.cpp"
+	"waves.h"
+
+1666109621 c:\users\user\documents\c++\cppproject\motion.h.h
+	<iostream>
+	<vector>
+	<cmath>
+
+1666109621 c:\users\user\documents\c++\cppproject\motion.cpp
+	<iostream>
+	<cmath>
+	<vector>
+	"motion.h.h"
+
+1666109891 c:\users\user\documents\c++\cppproject\waves.h
+	<iostream>
+	<vector>
+	<cmath>
+
