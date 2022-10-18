@@ -1,5 +1,5 @@
-#ifndef MOTION_H_H_INCLUDED
-#define MOTION_H_H_INCLUDED
+#ifndef MOTION_H_INCLUDED
+#define MOTION_H_INCLUDED
 #include <iostream>
 #include <vector>
 #include <cmath>
@@ -55,4 +55,4 @@ namespace Motion
         void findV();
     };
 }
-#endif // MOTION_H_H_INCLUDED
+#endif // MOTION_H_INCLUDED
