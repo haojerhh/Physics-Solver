@@ -1,5 +1,5 @@
 # Physics-Solver
-A project made by me
+A project made by me\n
 To Do :
 - Add more Topics
 - Add more Equations
